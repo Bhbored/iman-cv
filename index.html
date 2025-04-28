@@ -12,11 +12,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="style.css">
-
-    <!-- AOS Animation Library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -24,17 +21,17 @@
         <nav>
             <div class="logo">Iman Hassoun</div>
             <ul>
-                <li><a href="#about"><i class="fas fa-user icon"></i>About</a></li>
-                <li><a href="#experience"><i class="fas fa-briefcase icon"></i>Experience</a></li>
-                <li><a href="#education"><i class="fas fa-graduation-cap icon"></i>Education</a></li>
-                <li><a href="#skills"><i class="fas fa-tools icon"></i>Skills</a></li>
-                <li><a href="#contact"><i class="fas fa-envelope icon"></i>Contact</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i>About</a></li>
+                <li><a href="#experience"><i class="fas fa-briefcase"></i>Experience</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i>Education</a></li>
+                <li><a href="#skills"><i class="fas fa-tools"></i>Skills</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="hero">
-        <div class="hero-image animate__animated animate__zoomIn animate__delay-1s"></div>
+        <div class="hero-image animate__animated animate__zoomInDown animate__slow"></div>
         <div class="hero-text">
             <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Bonjour! Je suis Iman Hassoun</h1>
             <p class="lead animate__animated animate__fadeInUp animate__delay-2s">Passionate French Teacher with 6 years
@@ -45,23 +42,22 @@
         </div>
     </section>
 
-    <section id="about" class="about" data-aos="fade-up">
+    <section id="about" class="about" data-aos="fade-up" data-aos-delay="100">
         <h2>About Me</h2>
-        <p>With six years dedicated to guiding students through the intricacies and beauty of the French language, I
-            bring a dynamic and engaging approach to the classroom...</p>
+        <p>With six years dedicated to guiding students through the beauty of the French language, I bring a dynamic and
+            engaging approach to education...</p>
     </section>
 
-    <section id="experience" class="experience" data-aos="fade-right">
+    <section id="experience" class="experience" data-aos="fade-right" data-aos-delay="150">
         <h2>Experience</h2>
         <div class="experience-item">
             <h3>French Teacher</h3>
             <p class="timeline">September 2018 - Present</p>
             <p>ABC School, City, Country</p>
             <ul>
-                <li><i class="fas fa-chalkboard-teacher"></i> Developed and delivered engaging French lessons aligned
-                    with curriculum standards.</li>
-                <li><i class="fas fa-comments"></i> Created an inclusive classroom environment fostering engagement.
-                </li>
+                <li><i class="fas fa-chalkboard-teacher"></i> Developed and delivered French lessons with creative
+                    techniques.</li>
+                <li><i class="fas fa-comments"></i> Fostered a positive classroom experience.</li>
             </ul>
         </div>
         <div class="experience-item">
@@ -69,14 +65,13 @@
             <p class="timeline">June 2016 - August 2018</p>
             <p>XYZ Tutoring Center, City, Country</p>
             <ul>
-                <li><i class="fas fa-user-graduate"></i> Provided tailored tutoring to diverse student groups.</li>
-                <li><i class="fas fa-pencil-alt"></i> Assisted students in mastering French grammar and conversation.
-                </li>
+                <li><i class="fas fa-user-graduate"></i> Provided one-on-one tutoring sessions tailored to students'
+                    needs.</li>
             </ul>
         </div>
     </section>
 
-    <section id="education" class="education" data-aos="fade-left">
+    <section id="education" class="education" data-aos="fade-left" data-aos-delay="200">
         <h2>Education</h2>
         <div class="education-item">
             <h3>Diploma in French Literature</h3>
@@ -90,30 +85,30 @@
         </div>
     </section>
 
-    <section id="skills" class="skills" data-aos="zoom-in">
+    <section id="skills" class="skills" data-aos="zoom-in" data-aos-delay="250">
         <h2>Skills</h2>
         <ul class="skills-list">
-            <li><i class="fas fa-check-circle"></i> Fluent in French (Native/C2 Level)</li>
-            <li><i class="fas fa-check-circle"></i> Classroom Management Expertise</li>
-            <li><i class="fas fa-check-circle"></i> Advanced Educational Technology Usage</li>
+            <li><i class="fas fa-check-circle"></i> Fluent in French</li>
+            <li><i class="fas fa-check-circle"></i> Curriculum Development</li>
+            <li><i class="fas fa-check-circle"></i> Educational Technology</li>
         </ul>
     </section>
 
-    <section id="contact" class="contact" data-aos="fade-up">
+    <section id="contact" class="contact" data-aos="fade-up" data-aos-delay="300">
         <h2>Contact Me</h2>
-        <p>I am eager to connect with students, parents, and fellow educators.</p>
+        <p>I am eager to connect with students, parents, and fellow educators. Feel free to reach out!</p>
         <form>
             <div class="form-group">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" required>
             </div>
             <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" required>
             </div>
             <div class="form-group">
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+                <textarea id="message" rows="5" required></textarea>
             </div>
             <button type="submit" class="button">Send Message</button>
         </form>
@@ -122,18 +117,15 @@
     <footer data-aos="fade-up">
         <p>&copy; 2025 Iman Hassoun. All rights reserved.</p>
     </footer>
+
     <!-- Back to Top Button -->
     <button id="backToTop" title="Back to Top"><i class="fas fa-arrow-up"></i></button>
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="script.js"></script>
-
     <script>
-        AOS.init({
-            duration: 1000,
-            once: true,
-        });
+        AOS.init({ duration: 1000, once: true });
     </script>
 
 </body>
